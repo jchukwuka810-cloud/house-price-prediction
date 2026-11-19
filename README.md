@@ -26,3 +26,21 @@ expensive areas (above about $300,000), it tends to guess too low.
 **Limitation:** Prices of $500,000 or more were capped in the original data,
 so those rows were removed. The model is only reliable for neighbourhoods
 below $500,000.
+
+## Live App
+
+https://josh-house-price-prediction.streamlit.app/
+
+## How to run locally
+
+1. Clone the repository and open the folder.
+2. Create and activate a virtual environment.
+3. Install the requirements: `pip install -r requirements.txt`
+4. Start the app: `streamlit run streamlit_app.py`
+
+## Files
+
+- `house_price.ipynb`: data exploration, cleaning, training and evaluation
+- `streamlit_app.py`: the web app
+- `house_price_model.joblib`, `scaler.joblib`, `features.joblib`: the saved model, scaler and feature list
+- `requirements.txt`: libraries needed to run the app
