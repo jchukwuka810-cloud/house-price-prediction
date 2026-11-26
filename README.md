@@ -3,7 +3,8 @@
 **Goal:** This project predicts the median house price of a California
 neighbourhood using features such as median income, house age and number
 of rooms. It uses Linear Regression, trained on the California Housing
-dataset (20,640 samples, 8 features). The model is deployed as a Streamlit
+dataset (20,640 samples, 8 features;
+19,545 samples and 7 features were used after cleaning). The model is deployed as a Streamlit
 web app where a user enters the features and sees the predicted price.
 
 ## Results
